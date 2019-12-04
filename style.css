@@ -10,6 +10,7 @@
 
 body, html {
   width: 100%;
+  margin-left: -1rem;
   margin:0;
 
 }

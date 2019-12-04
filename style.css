@@ -8,12 +8,21 @@
  * Copyright (c) 2019 Daniel Eden
  */
 
-.answer {
-  visibility: hidden;
+body {
+  width: device-width;
+
 }
 
-.showanswer {
+.showing {
   visibility: visible;
+}
+
+
+
+
+
+#rightCFA, #wrongCFA, #rightCIT, #wrongCIT, #rightDIET, #wrongDIET {
+  visibility: hidden;
 }
 
 

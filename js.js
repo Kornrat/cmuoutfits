@@ -11,7 +11,7 @@ function changeAnswerCFA(){
 
 
 	$("#rightCFA").removeAttr('id');
-	$('#rightCFA').addClass('animated fadeIn');
+	$('#rightCFA').fadeIn();
 
 
 		}
@@ -20,14 +20,14 @@ function changeAnswerCFA(){
 function changewrongAnswerCFA() {
 
 	$("#wrongCFA").removeAttr('id');
-	$('#wrongCFA').addClass('animated fadeIn');
+	$('#wrongCFA').fadeIn();;
 		}
 
 
 function changeAnswerCIT() {
 
 	$("#rightCIT").removeAttr('id');
-	$('#rightCIT').addClass('animated fadeIn');
+	$('#rightCIT').fadeIn();;
 
 		}
 
@@ -35,14 +35,14 @@ function changeAnswerCIT() {
 function changewrongAnswerCIT() {
 
 	$("#wrongCIT").removeAttr('id');
-	$('#wrongCIT').addClass('animated fadeIn');
+	$('#wrongCIT').fadeIn();;
 
 		}
 
 function changeAnswerDIET() {
 
 	$("#rightDIET").removeAttr('id');
-	$('#rightDIET').addClass('animated fadeIn');
+	$('#rightDIET').fadeIn();
 
 		}
 
@@ -50,7 +50,7 @@ function changeAnswerDIET() {
 function changewrongAnswerDIET() {
 
 	$("#wrongDIET").removeAttr('id');
-	$('#wrongDIET').addClass('animated fadeIn');
+	$('#wrongDIET').fadeIn();;
 
 		}
 

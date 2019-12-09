@@ -1,9 +1,10 @@
 
 $('.scrollTo').click(function(){
-	var offset = 60;
-	$('html, body').animate({
-    scrollTop: ($('#target-element').offset().top - offset)
-},500);
+
+var svg = document.getElementsByTagName("svg")[0];
+svg.setAttribute("viewBox","0 800 375 17107");
+
+
 });
 
 
